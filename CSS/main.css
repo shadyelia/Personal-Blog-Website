@@ -4,3 +4,8 @@
 @import "blog-home.css";
 @import "login.css";
 @import "blog-post.css";
+
+
+html,body {
+    height:100%;
+}

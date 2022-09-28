@@ -9,17 +9,25 @@
 
 <body>
     <div class="container">
-        <div class="header">Header</div>
-        <div class="content">
-            <form>
-                <label>Username :</label>
-                <input type="string" />
-                <label>Password :</label>
-                <input type="password" />
-                <a href="blog-home.html"><button type="button">Login</button></a>
-            </form>
-        </div>
-        <div class="footer">Footer</div>
+        <form class="login-form">
+            <div class="user-data">
+                <input class="input" placeholder="Username" type="text" />
+                <br />
+                <input class="password input" placeholder="Password" type="password" />
+            </div>
+
+            <label class="text">
+                <input class="checkbox" type="checkbox" /> Remember me
+            </label>
+
+            <a href="blog-home.html"><button class="login-button" type="button">Login</button></a>
+
+            <div>
+                <a class="text" href="#">
+                    Forgot Password?
+                </a>
+            </div>
+        </form>
     </div>
 </body>
 
