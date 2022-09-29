@@ -1,0 +1,8 @@
+@import "shared.css";
+@import "layout.css";
+@import "header.css";
+@import "footer.css";
+
+.content{
+    grid-area: content;
+}
