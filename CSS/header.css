@@ -6,7 +6,7 @@
 
 .header-text {
     margin-left: 1em;
-    display:flex;
+    display: flex;
     position: relative
 }
 
@@ -17,12 +17,35 @@
     right: 0;
 }
 
-.logout-link:hover
-{
+.logout-link:hover {
     color: #577165;
-    text-decoration: underline;         
+    text-decoration: underline;
 }
 
-.header-links a{
-    margin-left: 1em
+#navmenu {
+    display: inline-block;
+    position: static;
+    width: auto;
+    max-width: 100%;
+    background-color: transparent;
+}
+
+#topmenu {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-top: 2px;
+    justify-content: space-evenly;
+}
+
+#navmenu li {
+    padding: 0px;
+    transition: background-color 0.2s ease;
+}
+
+#navmenu li>a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: .4px;
 }
