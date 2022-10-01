@@ -3,6 +3,39 @@
 @import "header.css";
 @import "footer.css";
 
-.content{
+.content {
+  grid-area: content;
+  overflow: auto;
+}
+
+@media (min-width: 450px) {
+  .content {
     grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 450px;
+    grid-template-rows: 2fr 450px;
+    padding-left: 16px;
+    margin: 0;
+    row-gap: 1em;
+    column-gap: 1em;
+    width: 100%;
+    height: 99%;
+    overflow: auto;
+    padding-right: 15px;
+  }
+}
+
+.mainimage_container {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }

@@ -1,16 +1,31 @@
-.footer{
+.footer {
+  grid-area: footer;
+}
+
+@media (min-width: 450px) {
+  .footer {
     grid-area: footer;
     display: flex;
     justify-content: space-around;
     border-top: 5px solid gray;
     align-items: center;
+  }
 }
 
-.logo{
-    display: flex;
-    align-items: center;
+.logo {
+  display: flex;
+  align-items: center;
 }
 
-.img{
-    width: 3em;
+.img {
+  width: 3em;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: #dcd6b2;
+}
+
+.footer > a:hover {
+  color: #979274;
 }

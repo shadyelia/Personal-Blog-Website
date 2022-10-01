@@ -1,44 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Blog Post</title>
-    <link rel="stylesheet" href="css/blog-home.css">
-</head>
+    <link rel="stylesheet" href="css/blog-home.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="header">
-            <h1 class="header-text">Blog Post</h1>
-            <a class="logout-link" href="./index.html">Logout</a>
-            <nav id="navmenu">
-                <ul id="topmenu">
-                    <li><a href="/video/">Video</a></li>
-                    <li class="subnav"><a href="/entertainment/" class="subnav">Entertainment</a></li>
-                    <li class="subnav"><a href="/culture/" class="subnav">Culture</a></li>
-                    <li class="subnav"><a href="/tech/" class="subnav">Tech</a></li>
-                    <li class="subnav"><a href="/science/" class="subnav">Science</a></li>
-                    <li class="subnav"><a href="/social-good/" class="subnav">Social Good</a></li>
-                    <li><a href="/mobility/">Mobility</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="header">
+        <h1 class="header-text">Blog Post</h1>
+        <a class="logout-link" href="./index.html">Logout</a>
+        <nav id="navmenu">
+          <ul id="topmenu">
+            <li><a href="/video/">Video</a></li>
+            <li><a href="/entertainment/" class="subnav">Entertainment</a></li>
+            <li><a href="/culture/" class="subnav">Culture</a></li>
+            <li><a href="/tech/" class="subnav">Tech</a></li>
+            <li><a href="/science/" class="subnav">Science</a></li>
+            <li><a href="/social-good/" class="subnav">Social Good</a></li>
+            <li><a href="/mobility/">Mobility</a></li>
+          </ul>
+        </nav>
+      </div>
 
-        <div class="content">
-            Home
+      <div class="content">
+        <div class="videos card">
+          <h2>Videos</h2>
+          <h3>Watch the latest videos</h3>
+          <iframe
+            width="460"
+            height="315"
+            src="https://www.youtube.com/embed/KTyvfMWekDU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
-
-        <div class="footer">
-            <div class="logo">
-                <img class="img" src="./Assets/Imgs/logo.png" alt="logo">
-                <span>@2022 Blog Post</span>
+        <div class="entertainment card">
+          <h2>Entertainment</h2>
+          <div class="mainimage_container">
+            <a href="./blog-post.html">
+              <img src="Assets/Imgs/blog-post-img.webp" alt="Blog Post" />
+            </a>
+            <div class="entry clearfix">
+              <p>
+                A FUN ANIMATED SUPERHERO ENDEAVOR &nbsp; Over the past decade,
+                DC Comics has diversified its cinematic production for both the
+                big and small screen platforms by taking its superhero roster
+                and presenting narratives that helps expand their showcase of
+                saving the world from evil forces. Of course, the live-action
+                avenue has been at the forefront of mainstream media, especially
+                from.
+              </p>
+              <a href="./blog-post.html" class="excerpt-more-link more-link"
+                >Read more</a
+              >
             </div>
-            <a href="./blog-home.html">Home</a>
-            <a href="https://Facebook.com/">Facebook</a>
-            <a href="https://twitter.com/">Twitter</a>
+          </div>
         </div>
-    </div>
-</body>
+        <div class="tech card">
+          <h2>Tech</h2>
+          <div class="mainimage_container">
+            <a href="">
+              <img
+                src="https://sm.mashable.com/t/mashable_me/article/j/joe-rogan-/joe-rogan-and-oprahs-bestie-caught-texting-with-elon-musk-ov_3juf.350.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <p>
+            Elon Tweet:
+            <blockquote cite="">
+              When something is important enough, you do it even if the odds are not in your favor.
+            </blockquote>
+          </p>
+        </div>
+        <div class="science card">
+          <h2>Science</h2>
+          <div class="mainimage_container">
+          <a href="">
+            <img
+              src="https://sm.mashable.com/t/mashable_me/help/h/how-to-use/how-to-use-google-maps-to-help-the-homeless_6b7e.350.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+          <p>
+            Carl Townsend says:
+            <blockquote cite="">
+              All healing is first a healing of the heart.
+            </blockquote>
+          </p>
+        </div>
+      </div>
 
+      <div class="footer">
+        <div class="logo">
+          <img class="img" src="./Assets/Imgs/logo.png" alt="logo" />
+          <span>@2022 Blog Post</span>
+        </div>
+        <a href="./blog-home.html">Home</a>
+        <a href="https://Facebook.com/">Facebook</a>
+        <a href="https://twitter.com/">Twitter</a>
+      </div>
+    </div>
+  </body>
 </html>
