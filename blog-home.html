@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Post</title>
     <link rel="stylesheet" href="css/blog-home.css" />
   </head>
@@ -13,13 +14,13 @@
         <a class="logout-link" href="./index.html">Logout</a>
         <nav id="navmenu">
           <ul id="topmenu">
-            <li><a href="/video/">Video</a></li>
-            <li><a href="/entertainment/" class="subnav">Entertainment</a></li>
-            <li><a href="/culture/" class="subnav">Culture</a></li>
-            <li><a href="/tech/" class="subnav">Tech</a></li>
-            <li><a href="/science/" class="subnav">Science</a></li>
-            <li><a href="/social-good/" class="subnav">Social Good</a></li>
-            <li><a href="/mobility/">Mobility</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Entertainment</a></li>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Tech</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Social Good</a></li>
+            <li><a href="#">Mobility</a></li>
           </ul>
         </nav>
       </div>
@@ -41,8 +42,11 @@
         <div class="entertainment card">
           <h2>Entertainment</h2>
           <div class="mainimage_container">
-            <a href="./blog-post.html">
-              <img src="Assets/Imgs/blog-post-img.webp" alt="Blog Post" />
+            <a class="more-link" href="./blog-post.html">
+              <figure>
+                <img src="Assets/Imgs/blog-post-img.webp" alt="Blog Post" />
+                <figcaption>The main hero</figcaption>
+              </figure>
             </a>
             <div class="entry clearfix">
               <p>
@@ -54,45 +58,60 @@
                 avenue has been at the forefront of mainstream media, especially
                 from.
               </p>
-              <a href="./blog-post.html" class="excerpt-more-link more-link"
-                >Read more</a
-              >
+              <a href="./blog-post.html" class="more-link">
+                <button class="button">Read more</button>
+              </a>
             </div>
           </div>
         </div>
         <div class="tech card">
           <h2>Tech</h2>
           <div class="mainimage_container">
-            <a href="">
-              <img
-                src="https://sm.mashable.com/t/mashable_me/article/j/joe-rogan-/joe-rogan-and-oprahs-bestie-caught-texting-with-elon-musk-ov_3juf.350.jpg"
-                alt=""
-              />
+            <a class="more-link" href="#">
+              <figure>
+                <img
+                  src="https://sm.mashable.com/t/mashable_me/article/j/joe-rogan-/joe-rogan-and-oprahs-bestie-caught-texting-with-elon-musk-ov_3juf.350.jpg"
+                  alt=""
+                />
+                <figcaption>Elon musk</figcaption>
+              </figure>
             </a>
           </div>
-          <p>
-            Elon Tweet:
-            <blockquote cite="">
-              When something is important enough, you do it even if the odds are not in your favor.
-            </blockquote>
-          </p>
+          <h3>Elon Tweet:</h3>
+          <blockquote cite="">
+            When something is important enough, you do it even if the odds are
+            not in your favor.
+          </blockquote>
         </div>
         <div class="science card">
           <h2>Science</h2>
           <div class="mainimage_container">
-          <a href="">
-            <img
-              src="https://sm.mashable.com/t/mashable_me/help/h/how-to-use/how-to-use-google-maps-to-help-the-homeless_6b7e.350.jpg"
-              alt=""
-            />
-          </a>
-        </div>
-          <p>
-            Carl Townsend says:
-            <blockquote cite="">
-              All healing is first a healing of the heart.
-            </blockquote>
-          </p>
+            <a class="more-link" href="#">
+              <figure>
+                <img
+                  src="https://sm.mashable.com/t/mashable_me/help/h/how-to-use/how-to-use-google-maps-to-help-the-homeless_6b7e.350.jpg"
+                  alt=""
+                />
+                <figcaption>Health care</figcaption>
+              </figure>
+            </a>
+          </div>
+          <h3>Carl Townsend says:</h3>
+          <blockquote cite="">
+            All healing is first a healing of the heart.
+          </blockquote>
+
+          <h3>Helen Keller says:</h3>
+          <blockquote cite="">
+            Although the world is full of suffering, it is also full of the
+            overcoming of it.
+          </blockquote>
+
+          <h3>Gary Zukav says:</h3>
+          <blockquote cite="">
+            Eventually you will come to understand that love heals everything,
+            and love is all there is.
+          </blockquote>
         </div>
       </div>
 
