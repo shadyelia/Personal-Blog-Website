@@ -13,7 +13,7 @@
   .content {
     grid-area: content;
     display: grid;
-    grid-template-columns: 1fr 1fr 450px;
+    grid-template-columns: 1fr 50em;
     padding-left: 16px;
     margin: 0;
     row-gap: 1em;
@@ -22,6 +22,7 @@
     height: 99%;
     overflow: auto;
     padding-right: 15px;
+    overflow-x: hidden;
   }
 }
 
@@ -35,6 +36,8 @@
   transition: 0.3s;
   border-radius: 5px;
   min-height: 35em;
+  text-align: center;
+  place-items: center;
 }
 
 .card:after {
@@ -48,4 +51,8 @@
 
 .more-link{
   text-decoration: none;
+}
+
+.blog-img{
+  width: 100%;
 }
